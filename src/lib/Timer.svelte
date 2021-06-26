@@ -45,6 +45,7 @@
     gap: 10px; */
     margin-bottom: 10px;
     display: flex;
+    flex-wrap: wrap;
   }
 
   .buttons > button {
