@@ -1,4 +1,4 @@
-import { interpolate } from "d3-interpolate";
+import { interpolateRound } from "d3-interpolate";
 import { scaleLinear } from "d3-scale";
 import type { Readable } from "svelte/store";
 import { derived } from "svelte/store";
