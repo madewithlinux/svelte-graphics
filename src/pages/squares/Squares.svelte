@@ -1,8 +1,8 @@
-<script lang="typescript">
+<script lang="ts">
   import { scaleLinear } from "d3-scale";
 
   import type { Readable } from "svelte/store";
-  import { derivedFrame } from "./lib/keyframe_utils";
+  import { derivedFrame } from "@/lib/keyframe_utils";
 
   export let frameTime: Readable<number>;
   export let bgColor = "#da076f";

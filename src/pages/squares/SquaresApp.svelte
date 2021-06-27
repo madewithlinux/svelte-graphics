@@ -1,6 +1,6 @@
-<script lang="typescript">
+<script lang="ts">
   import type { Tweened } from "svelte/motion";
-  import Timer from "./lib/Timer.svelte";
+  import Timer from "../../lib/Timer.svelte";
   import Squares from "./Squares.svelte";
 
   let frameTime: Tweened<number>;

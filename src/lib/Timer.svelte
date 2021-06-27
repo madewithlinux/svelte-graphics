@@ -1,4 +1,4 @@
-<script lang="typescript">
+<script lang="ts">
   import type { Tweened } from "svelte/motion";
   import { tweened } from "svelte/motion";
 

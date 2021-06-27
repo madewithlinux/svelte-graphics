@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp dist/index/index.html dist/",
     "serve": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "predeploy": "yarn run build",
@@ -32,6 +32,8 @@
     "d3-format": "^3.0.1",
     "d3-interpolate": "^3.0.1",
     "d3-scale": "^4.0.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "vite-plugin-html-template": "^1.0.4",
+    "vite-plugin-mpa": "^1.0.3"
   }
 }
