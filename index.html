@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>svelte graphics</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+      import App from '@pages/index/App.svelte'
+const app = new App({
+  target: document.getElementById('app')
+})
+export default app
+    </script>
+    <a href="@pages/index"></a>
+    <a href="@pages/squares/index.html"></a>
+    <a href="@pages/squares/index.html?url"></a>
+    <a href="src/pages/squares/index.html"></a>
+    <a href="src/pages/squares/index.html?url"></a>
+  </body>
+</html>

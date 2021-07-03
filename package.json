@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp dist/index/index.html dist/",
+    "build": "vite build",
     "serve": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "predeploy": "yarn run build",
